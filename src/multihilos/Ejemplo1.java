@@ -40,7 +40,6 @@ class HiloConteo1 implements Runnable {
             }
         }
         
-        System.out.println("Soy HiloConteo y ya termine mi ejecucion");
         
     }
     

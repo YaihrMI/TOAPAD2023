@@ -36,6 +36,12 @@ public class Practica1 extends javax.swing.JFrame {
 
         jLabel1.setText("Escribe un nombre para saludar");
 
+        tfNombre.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tfNombreActionPerformed(evt);
+            }
+        });
+
         btnSaludar.setText("Saludar");
         btnSaludar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -83,6 +89,10 @@ public class Practica1 extends javax.swing.JFrame {
         this.tfNombre.setText("");
         
     }//GEN-LAST:event_btnSaludarActionPerformed
+
+    private void tfNombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfNombreActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tfNombreActionPerformed
 
     /**
      * @param args the command line arguments

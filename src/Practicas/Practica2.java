@@ -62,6 +62,11 @@ public class Practica2 extends javax.swing.JFrame {
         tfNumero.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         tfNumero.setText("0");
         tfNumero.setFocusable(false);
+        tfNumero.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tfNumeroActionPerformed(evt);
+            }
+        });
 
         btnGenerar.setText("Generar");
         btnGenerar.addActionListener(new java.awt.event.ActionListener() {
@@ -150,6 +155,10 @@ public class Practica2 extends javax.swing.JFrame {
             this.spSuperior.setValue(low+1);
         }
     }//GEN-LAST:event_spSuperiorStateChanged
+
+    private void tfNumeroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfNumeroActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tfNumeroActionPerformed
 
     /**
      * @param args the command line arguments
