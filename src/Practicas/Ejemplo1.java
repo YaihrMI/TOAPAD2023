@@ -5,10 +5,6 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
-/**
- *
- * @author marco
- */
 public class Ejemplo1 {
     public static void main(String args[]){
         
